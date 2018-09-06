@@ -1,0 +1,30 @@
+.nav-item{
+	margin-left: 2vw;
+
+.nav-link
+{
+	border: none;
+	/*background-color: #F0F3F5;*/
+	color: black;
+	@include btp;
+	/*padding:12px;*/
+	font-size: 130%;
+	/*padding: 15px 32px;*/
+	text-decoration: none;
+	/*display: inline-block;*/
+	cursor: pointer;
+	margin-top: -15px;
+}
+}
+.dropdown
+{
+	width:300px;
+}
+
+.dropdown-menu
+{
+	width:290px;
+	@include btp;
+	background-color: $bg;
+}
+

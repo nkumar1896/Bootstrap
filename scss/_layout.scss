@@ -1,0 +1,49 @@
+body{
+	margin:0; padding:0;
+	width: 100%;
+	overflow-x:hidden; 
+	height: auto;
+	
+}
+.container-flex{
+	position: sticky;
+	top: 0;
+	/*width:1350px;*/
+	width: 100%;
+	height: auto;
+	z-index: 2;
+	margin-top: -50px;
+#cover h1{
+	
+	@include btp;
+	font-size: 30px;
+	color: black;
+	width:100%;
+	height: auto;
+	margin-top: 5px;
+	
+	}
+}
+#carouselExampleFade {
+	width: 100%;
+	height: auto;
+	margin-top:-40px;
+	/*height:auto;*/
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	/*color: #FFF;
+	background: #322f30;*/
+	-webkit-font-smoothing: antialiased;
+}
+footer {
+	
+	overflow-x:hidden; 
+	
+}
+.card-body a {
+	text-decoration: none;
+	color: black;
+}
